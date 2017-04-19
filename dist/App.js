@@ -55,7 +55,7 @@ var App = function (_Component) {
                 _react2.default.createElement(
                     'button',
                     { ref: 'btn' },
-                    'GIF'
+                    'GIFs'
                 )
             ),
             _react2.default.createElement(_GiphyPicker2.default, { target: function target() {

@@ -150,7 +150,6 @@ var App = function (_Component) {
 
         (0, _Api.search)(this._searchInput.value, function (resp) {
             _this4.setState({ searchResult: resp.data, totalSearchResult: resp.pagination.total_count });
-            console.log(resp);
         });
     };
 

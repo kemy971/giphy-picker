@@ -1,0 +1,8 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "no-console": ["error",{ "allow": ["warn", "error"] }],
+    "eqeqeq": 1,
+    "no-else-return"   : 1
+  }
+}
