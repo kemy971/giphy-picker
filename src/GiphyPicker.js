@@ -106,7 +106,6 @@ class App extends Component {
     searchGIF() {
         search(this._searchInput.value, (resp) => {
                 this.setState({searchResult: resp.data, totalSearchResult: resp.pagination.total_count});
-                console.log(resp);
             }
         )
     }
